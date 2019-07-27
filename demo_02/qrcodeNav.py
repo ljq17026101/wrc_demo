@@ -9,7 +9,7 @@ import Image,ImageEnhance
 def qrcode_rt():
     reload(sys)
     sys.setdefaultencoding('utf8')#二维码识别相关
-    cap = cv2.VideoCapture(2)
+    cap = cv2.VideoCapture(0)
     while(1):
         ret,frame = cap.read()
         gray = cv2.cvtColor(frame,cv2.COLOR_BGR2GRAY)
