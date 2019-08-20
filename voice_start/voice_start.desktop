@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=voice_start
+Comment=XXXtest Link
+Exec=/home/intel/ros_voice_system/scripts/voice_start.sh
+Icon=/home/intel/ros_voice_system/scripts/voice_start.ico
+Terminal=true
+StartupNotify=true
+Type=Application
+Categories=Application;Development;
+Comment[en_US]=voice link
+Name[en_US]=voice_start
